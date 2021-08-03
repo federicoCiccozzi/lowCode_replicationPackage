@@ -1,0 +1,13 @@
+This replication package consists of the following elements:
+- Folder "search_selection": contains 
+	- a .xslx sheet "peer" with the following tabs (reflecting the steps in Fig.2 in the paper):
+		- Automatic search: containing all search hits
+		- Impurity and duplicates removal: list of hits after removal of duplicats and impurities
+		- Application of selection criteria: detailed selection form with applied criteria. It results in the list of selected papers
+		- Snowballing: list of selected papers after snowballing
+	- a .csv sheet "grey" with the grey literature items and the applied selection criteria
+- Folder "data_extraction": contains the following items:
+	- data_extraction_form_X: data extraction forms for each of the included primary studies (separated as peer-reviewed literature, grey literature, and altogether) in a plain tab-separated format; these files are used by the R scripts to generate plots and bubble charts
+	- input: contains the data extraction forms to input to R scripts for peer-reviewed literature, grey literature, and altogether
+	- output: contains all plots and bubble charts generated through the R scripts for peer-reviewed literature, grey literature, and altogether 
+	- R_scripts: contains executable scripts for generation of plots and bubble charts (paths need to be adjusted to the specific location of the main folder)
