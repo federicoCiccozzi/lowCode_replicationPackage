@@ -1,4 +1,4 @@
-This replication package consists of the following elements:
+This replication package consists of the following elements (NOTE THAT FILES NEED TO BE DOWNLOADED TO ENSURE PROPER READABILITY):
 - Folder "search_selection": contains 
 	- a .xslx sheet "peer" with the following tabs (reflecting the steps in Fig.2 in the paper):
 		- Automatic search: containing all search hits
